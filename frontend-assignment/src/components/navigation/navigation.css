@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    box-shadow: 0 8px 6px -6px lightgrey;
+}
+
+.container > div {
+    flex: 1; /*grow*/
+  }
+
+.navigation-bar{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.navigation-item, .sign-in-items{
+    padding-left: 30px;
+}
+
+.cart-container{
+    display: flex;
+    align-items: flex-end;
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+.cart-container > div {
+    flex: 1; /*grow*/
+  }

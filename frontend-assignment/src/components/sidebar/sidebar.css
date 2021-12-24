@@ -1,0 +1,21 @@
+.sidebar-container{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    margin-top: 8px;
+}
+
+.catogery-list-card{
+    height: 12%;
+    margin: 0;
+    background-color: lightgrey;
+    padding-top: 12px;
+    border-bottom: 1px solid slategray;
+    cursor: pointer;
+}
+
+.catogery-list-card:hover {
+    background-color: rgb(58, 58, 58);
+    color: white;
+  }

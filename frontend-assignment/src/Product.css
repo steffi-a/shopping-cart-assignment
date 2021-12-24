@@ -1,0 +1,11 @@
+.product-details-container{
+    margin-left: 22%;
+    background-color: white;
+    height: 500px;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.product-details-container > div{
+    flex:1;
+}

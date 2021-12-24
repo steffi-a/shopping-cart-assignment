@@ -1,0 +1,29 @@
+
+.banner-container{
+    display: flex;
+    margin-top: 50px;
+    margin: 10px 10%;
+    height: 200px;
+    box-shadow: 0 8px 6px -6px lightgrey;
+}
+
+.banner-container > div {
+  flex: 1; /*grow*/
+  text-align: left;
+  background-color:white;
+  text-align: center;
+  
+}
+
+.banner-details{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-img{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
